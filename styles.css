@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
 *{
     box-sizing: border-box;
 }
@@ -5,8 +9,52 @@
 body{
     margin: 0;
 }
-#logo{
-    height: 100px;
-    width: 100px;
 
+i{
+    font-style: normal;
+    padding: 0, 10px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    width: 100px;
+}
+
+.searchBar{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+
+}
+.search input {
+    width: 500px;
+    margin: 0px;
+    padding: 0;
+}
+button{
+    border-radius: 0;
+    border: none;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    
+}
+form{
+    /*border: 1px solid #ddd;*/
+    height: 35px;
+}
+.main{
+    background-color: black;
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+iframe{
+    width: 560px;
+    height: 400px;
 }
