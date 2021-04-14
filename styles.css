@@ -12,17 +12,17 @@ body{
 
 i{
     font-style: normal;
-    padding: 0, 10px;
+    margin: 10px;
 }
 .logo{
-    display: flex;
-    align-items: center;
-    width: 100px;
+    position: relative;
+    right: 100px;
+    width: 6%;
 }
 
 .searchBar{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 15px;
     align-items: center;
 
@@ -57,4 +57,16 @@ form{
 iframe{
     width: 560px;
     height: 400px;
+}
+.fa-microphone{
+    width: 30px;
+    
+}
+.fa-video{
+    width: 30px;
+}
+.fa-bars{
+    position: relative;
+    right: 10px;
+    bottom: 2px;
 }
